@@ -137,34 +137,23 @@ h4 {
     padding: 0;
     margin: 0;
     letter-spacing: 2px;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: othergrad 15s ease infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   opacity: .7;
+   
 }
 
-@keyframes othergrad {
-    0% {
-        background-position: 50% 0%;
-        /* background-position: 0% 50%; */
-    }
 
-    50% {
-        background-position: 50% 100%;
-        /* background-position: 100% 50%; */
-    }
-
-    100% {
-        background-position: 50% 0%;
-        /* background-position: 0% 50%; */
-    }
-}
 
 .message {
     width: 90%;
-    /* min-width: 300px; */
     max-width: 350px;
     margin: 380px auto;
+}
+
+#visitorCount {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: none;
+    opacity: .25;
 }
 
 @media (mid-width: 500px) {
